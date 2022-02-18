@@ -6,8 +6,8 @@ package part1
  */
 fun solution(a: Int): Char {
   when(a){
-        in 10..99 -> return'A'
-        in 100..999 -> return'B'
+        in 10..99 -> return 'A'
+        in 100..999 -> return 'B'
         else -> return 'C'
     }
 }
