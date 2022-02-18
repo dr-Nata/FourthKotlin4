@@ -5,7 +5,11 @@ package part1
 Гарантируется, что число положительное.
  */
 fun solution(a: Int): Char {
-    TODO("Not yet implemented")
+  when(a){
+        in 10..99 -> return 'A'
+        in 100..999 -> return 'B'
+        else -> return 'C'
+    }
 }
 
 fun main() {
@@ -15,5 +19,11 @@ fun main() {
     println(solution(235))   // B
     println(solution(1736))  // C
 }
+
+
+
+
+
+
 
 
