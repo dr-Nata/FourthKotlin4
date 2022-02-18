@@ -1,6 +1,14 @@
-fun main(args: Array<String>) {
-    println("Hello World!")
+fun main() {
+    val a = readLine()!!.toInt()
 
-    // Try adding program arguments at Run/Debug configuration
-    println("Program arguments: ${args.joinToString()}")
+    val out = when(a){
+           5          -> println("wwda")
+     6 -> println("wwdtrtera")
+     !in 7..15 -> println("wwdaerwerer")
+      else -> ("")
+
+
+
+     }
+
 }
